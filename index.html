@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
 <title>The Clarity Report — Edition I: Your Money, The New Rules</title>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500;600&display=swap');
@@ -24,8 +24,8 @@
     --green: #5cb88a;
   }
 
-  html, body { height: 100%; overflow: hidden; }
-  body { font-family: 'DM Sans', sans-serif; background: var(--ink); color: var(--text); }
+  html { height: 100%; height: -webkit-fill-available; overflow: hidden; }
+  body { height: 100vh; height: -webkit-fill-available; overflow: hidden; font-family: 'DM Sans', sans-serif; background: var(--ink); color: var(--text); }
 
   /* MASTHEAD */
   #mast {
@@ -488,7 +488,7 @@ const S = [
   <div class="cta-box">
     <h3>Your Money, The New Rules</h3>
     <p>A complete plain-English course on the financial shift happening right now. Six modules covering everything from how money actually works to how to make confident decisions in the new digital financial era. No prior knowledge required.</p>
-    <button class="cta-btn" onclick="window.open('https://theclarityreport.gumroad.com/l/vdlkjg','_blank')"">Get the Full Course — $47</button>
+    <button class="cta-btn" onclick="window.open('https://theclarityreport.gumroad.com/l/vdlkjg','_blank')">Get the Full Course — $47</button>
     <div class="cta-price">One-time purchase · Instant download · Yours to keep forever</div>
   </div>
   <div style="font-size:0.7rem;color:var(--muted);opacity:0.5;margin-top:14px;max-width:500px">Educational content only. Not financial advice. See full disclaimer on the closing slide.</div>
